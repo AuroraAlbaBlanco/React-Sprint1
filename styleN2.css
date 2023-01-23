@@ -90,6 +90,109 @@ header nav {
     text-align: center;
 }
 
+main {
+    display: flex;
+    gap: 1rem;
+}
+
+main section {
+    background: rgba(85, 84, 84, 0.2);
+    flex: 4;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+article {
+    background: rgb(253, 249, 249);
+    flex: 1 1 30%;
+    margin: 1%;
+    padding: 2%;
+}
+
+article img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+
+.date{
+    margin-top: -10%;
+    padding-left: 1%;
+    color: #f9fc59;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.titular{
+    background-color: rgb(224, 145, 153);
+    height: 5%;
+    padding: 1%;
+    color: rgb(253, 249, 249);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+article p{
+    column-count: 2;
+    column-gap: 2rem;
+    margin: 1rem 0 0 0;
+    font-size: 1.5rem;
+    color: rgb(65, 64, 64);
+}
+
+article a{
+    padding: 1rem 0 0 .4rem;
+    opacity: 0.7;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.art5 {
+    text-align:center;
+    font-size: 1rem;
+
+}
+
+main aside {
+    padding: 2rem .75rem 0;
+    background: rgba(85, 84, 84, 0.2);
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .8rem;
+}
+
+aside h3{
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+aside p{
+    padding: 1rem;
+
+}
+
+footer {
+    background: rgba(85, 84, 84, 0.2);
+}
+
+footer>div {
+    background: rgb(253, 249, 249);
+    margin: 0 1% 0 1%;
+    text-align: center;
+    color:rgb(65, 64, 64);
+}
+
+@media screen and (max-width: 1062px){
+    main{
+        
+        flex-flow: column wrap;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .container {
         margin: 0.5rem;
