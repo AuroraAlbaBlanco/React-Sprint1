@@ -1,0 +1,79 @@
+*{
+    margin:10px;
+    padding: 10px;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+header{
+    background: black;
+}
+
+header > nav{
+    background: rgb(69, 66, 95);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav > div{
+    background: orangered;
+}
+.item1{
+    flex-grow: 1;
+}
+.item2{
+    flex-grow: 3;
+}
+.item3{
+    flex-grow: 1;
+}
+
+header > div{
+    background: rgb(240, 90, 35);
+}
+
+div > h1{
+    background: rgb(255, 174, 0);
+}
+
+main{
+    background: black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main > section{
+    background: rgb(68, 63, 134);
+    display: flex;
+    flex-flow: row wrap; 
+    flex-grow: 2;
+}
+
+section > article{
+    background: rgb(49, 82, 230);
+    flex: 1 1 40%;
+}
+
+.art5{
+    background: rgb(0, 140, 255);
+}
+
+main > aside{
+    background: rgb(241, 34, 51);
+    flex-grow: 1;
+}
+
+aside > div{
+    background: rgb(230, 203, 49);
+}
+
+footer{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer > div{
+    background: rgb(230, 203, 49);
+    flex-grow: 1;
+}
