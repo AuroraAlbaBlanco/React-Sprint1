@@ -83,3 +83,36 @@ footer > div{
         flex-flow: column wrap;
     }
 }
+
+@media screen and (max-width: 480px){
+    header > nav{
+        flex-flow: column wrap;
+    }
+    main{
+        background: rgb(235, 231, 16);
+        flex-flow: column wrap;
+    }
+
+    main > section{
+        background: rgb(23, 83, 60);
+        display: flex;
+        flex-flow: column wrap; 
+    }
+
+    section > article{
+        background: rgb(42, 143, 104);
+    }
+
+    .art5{
+        background: rgb(55, 187, 136);
+    }
+
+    main > aside{
+        background: rgb(245, 141, 23);
+    }
+
+    aside > div{
+        background: rgb(228, 178, 70);
+    }
+
+}
